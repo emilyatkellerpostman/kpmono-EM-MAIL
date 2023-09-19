@@ -1,7 +1,5 @@
 import React, { ReactNode } from 'react';
-import { Column } from '@react-email/column';
-import { Container } from '@react-email/container';
-import { Row } from '@react-email/components';
+import { Column, Container, Row } from '@react-email/components';
 
 interface FooterProps {
   copyright: ReactNode;

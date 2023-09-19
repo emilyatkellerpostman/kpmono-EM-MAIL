@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
-import { Text } from "@react-email/text";
-import { Section } from "@react-email/components";
+import { Text, Section } from "@react-email/components";
 
 interface ContactProps {
   call: ReactNode;

@@ -1,6 +1,5 @@
 import React, { ReactNode, CSSProperties } from 'react';
-import { Link } from '@react-email/link';
-import { Section } from '@react-email/section';
+import { Link, Section } from '@react-email/components';
 
 interface CustomButtonProps {
   button2: ReactNode;

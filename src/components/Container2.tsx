@@ -1,6 +1,5 @@
 import React from 'react';
-import { Section } from '@react-email/section';
-import { Text } from '@react-email/text';
+import { Section, Text } from '@react-email/components';
 
 interface Container2Props {
   meeting1: string;
@@ -26,7 +25,7 @@ export default Container2;
 const sectionContainer2: React.CSSProperties = {
   backgroundColor: "#DFDCDC",
   padding: "1em 2.5em",
-  width: "520px",
+  width: "550px",
   display: "flex",
   marginBottom: "1em"
 };
